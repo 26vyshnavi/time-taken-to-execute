@@ -1,0 +1,16 @@
+#time taken to execute 
+import time 
+begin = time.time()
+for i in range(5):
+    print("Wahaj")
+time.sleep(1)
+end = time.time()
+print(f"Total run time of the program is {end - begin}")
+
+output:-
+Wahaj
+Wahaj
+Wahaj
+Wahaj
+Wahaj
+Total run time of the program is 1.0018103122711182
